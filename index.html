@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Web<span>Zone</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">☰</button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="tagline">WELCOME TO WEBZONE</p>
+                <h1>Build Your <span>Digital Future</span></h1>
+                <p class="description">
+                    We create modern, responsive and user-friendly
+                    websites to help your business grow online.
+                </p>
+                <a href="#services" class="btn">Explore Services</a>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+                    alt="Web developer working on a laptop">
+            </div>
+        </section>
+
+       
+<section id="about" class="about-section">
+    <div class="about-container">
+        <div class="about-content">
+            <p class="about-tag">WHO WE ARE</p>
+
+            <h2>About <span>Us</span></h2>
+
+            <p class="about-description">
+                We create modern, responsive, and user-friendly websites
+                that help businesses build a strong online presence.
+                Our goal is to deliver clean designs, smooth experiences,
+                and solutions that work beautifully on every device.
+            </p>
+
+            <div class="about-features">
+                <div class="about-feature">
+                    <span class="feature-icon">✦</span>
+                    <div>
+                        <h3>Modern Design</h3>
+                        <p>Clean layouts with a professional look.</p>
+                    </div>
+                </div>
+
+                <div class="about-feature">
+                    <span class="feature-icon">⚡</span>
+                    <div>
+                        <h3>Responsive Experience</h3>
+                        <p>Designed for mobile, tablet, and desktop.</p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#contact" class="about-btn">Let's Connect ↗</a>
+        </div>
+    </div>
+</section>
+
+
+        <section class="services" id="services">
+            <h2>Our Services</h2>
+
+            <div class="service-container">
+                <article class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Fast, functional and responsive websites.</p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Clean designs for a better user experience.</p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Responsive Design</h3>
+                    <p>Websites that work on mobile and desktop.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-container">
+
+                <div class="contact-info">
+                    <p class="tagline">GET IN TOUCH</p>
+                    <h2>Contact Us</h2>
+                    <p>
+                        Have a project in mind? Contact us today.
+                        We would love to hear from you.
+                    </p>
+
+                    <div class="contact-detail">
+                        <span>📧</span>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p>ankitsinghdhakar537@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <span>📍</span>
+                        <div>
+                            <h3>Location</h3>
+                            <p>India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <h2>Send a Message</h2>
+
+                    <label for="name">Full Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required>
+
+                    <label for="email">Email Address</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required>
+
+                    <label for="message">Your Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="4"
+                        placeholder="Write your message..."
+                        required></textarea>
+
+                    <button type="submit" class="btn">Send Message</button>
+                    <p id="form-status" role="status"></p>
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 WebZone. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
